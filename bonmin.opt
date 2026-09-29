@@ -1,0 +1,9 @@
+bonmin.algorithm B-BB
+#heuristic_dive_MIP_fractional no
+tree_search_strategy top-node
+number_before_trust 0
+#bonmin.node_comparison depth-first
+bonmin.variable_selection qp-strong-branching
+#number_strong_branch 10
+bb_log_level 5
+#bb_log_interval 1
